@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+Icon=kde
+Actions=checksum;
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/octet-stream
+
+[Desktop Action checksum]
+Name=Compute checksum
+Icon=kde
+Exec=pycksum.py crc32,md5sum,sha1sum %f
